@@ -6,7 +6,8 @@ TL;DR If you're already using Scala, there's no need to look at Kotlin. If you'r
 
 Here's my very short summary after playing around with it for 2-3 hours (so take it with a grain of salt).
 
-=The Good=
+The Good
+========
 
 - More expressive than Java 
 - Non-nullable by default
@@ -17,7 +18,8 @@ Here's my very short summary after playing around with it for 2-3 hours (so take
 - type inference
 - limited operator overloading (see below)
 
-=The Bad=
+The Bad
+=======
 
 - limited operator overloading :-)
 
@@ -54,7 +56,8 @@ class Board(val columns:Int,val rows:Int)
   - properties <-> backing properties 
   - being only able to declare getters setters only right after a property definition IMHO makes classes hard to read if your getters/setters are longer than one line
 
-=The Ugly=
+The Ugly
+========
 
 - A language without full-blown pattern matching in 2017 ...
 
