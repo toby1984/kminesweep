@@ -1,4 +1,5 @@
 A toy minesweeper implementation in Kotlin
+==========================================
 
 Kotlin seems to be getting some attention lately (since Google announced that Kotlin will be supported on Android) so I wanted to see how it feels compared to Scala.
 
