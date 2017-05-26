@@ -28,18 +28,7 @@ The Bad
 
 - Setting up multi-dimensional arrays is a PITA ...
 
-class Board(val columns:Int,val rows:Int)
-{
-        val board : Array<Array<State>>
-
-        enum class State(val hasMine:Boolean,val isDiscovered:Boolean) { ... }
-
-        init
-        {
-            board = Array<Array<State>>(columns, { Array<State>( rows , { State.EMPTY } ) } )
-        }
-}
-
+   board = Array<Array<State>>(columns, { Array<State>( rows , { State.EMPTY } ) } )
 
 - Unlike Scala , assignment does not return Unit so is no expression
 
