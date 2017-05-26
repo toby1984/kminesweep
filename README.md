@@ -28,16 +28,22 @@ The Bad
 
 - Setting up multi-dimensional arrays is a PITA ...
 
+ ```kotlin
    board = Array<Array<State>>(columns, { Array<State>( rows , { State.EMPTY } ) } )
-
+ ```
+ 
 - Unlike Scala , assignment does not return Unit so is no expression
 
+ ```kotlin
   func set(x:Int,y:Int,s:State) : Unit = board[x][y] = s  <<<<< won't compile 
+ ```
+ 
+- Noisy lambdas (why the need for curly braces?) 
 
-- Noisy lambas (why the need for curly braces?) 
-
+  ```kotlin
    val x : (Int) -> Int = { x -> x+1 }
-
+  ```
+  
 - Inner classes need to be explicitly marked with "inner" keyword
 
 - They got ridf of the 'new' keyword but now you have to write "object : xxxx" when you want to create an anonymous class
@@ -60,5 +66,5 @@ The Ugly
   - no type hierarchy
   - no auto-formatting (not even indent...)
 
-- No syntax for array-initialization like String[] x = { "a" , "b" , "c" };
+- No syntax for simple array-initialization like String[] x = { "a" , "b" , "c" };
   (though there are factory functions like arrayOf() etc. )
