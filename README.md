@@ -57,9 +57,10 @@ The Ugly
 
 - A language without full-blown pattern matching in 2017 ...
 
-- restrictive for() loop syntax
+- Restrictive for() loop syntax
 
-- Somewhat expected (they want to sell their IDE, after all) the Eclipse Kotlin plugin is quite stable but very basic, it's basically just a glorified text editor with syntax highlighting and auto-completion of identifiers in scope. 
+- The Eclipse Kotlin plugin is quite stable but *very* basic, it's just a glorified text editor with syntax highlighting and auto-completion of identifiers in scope. 
+  - Somewhat expected (they want to sell their IDE, after all) but also gives the impression that apart from IntelliJ users nobody is using this language...
   - no refactorings (not even rename...)
   - no auto-completion of method names when trying to override a function
   - no search callers etc.
